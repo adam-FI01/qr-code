@@ -80,7 +80,7 @@ body {
 
 main {
     background-color: var(--clr-primary-100);
-    background-size: 150px;
+    background-size: 9.375;
     max-width: 18.75rem;
     border: 2px solid white;
     border-radius: 5%;
@@ -90,12 +90,12 @@ main {
 
 .qr-code {
   max-height: 15.625rem;
-  max-width: 300px;
+  max-width: 18.75rem;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 0.9375rem;
   margin-bottom: 2rem;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 
@@ -113,5 +113,5 @@ main {
     padding-top: 1.25rem;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
