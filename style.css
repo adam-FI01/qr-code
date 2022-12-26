@@ -7,7 +7,7 @@
 
     --fs-paragraph: 15px;
 
-    --ff-regular: [Outfit](https://fonts.google.com/specimen/Outfit);
+    --ff-regular: font-family: "Outfit", sans-serif;
 
     --fw-bold: 700;
     --fw-light: 400;
@@ -90,11 +90,12 @@ main {
 
 .qr-code {
   max-height: 15.625rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 0.9375rem;
-  padding-bottom: 0.9375rem;
-  border-radius: 5px;
+  max-width: 300px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.9375rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
 }
 
 
@@ -112,4 +113,5 @@ main {
     padding-top: 1.25rem;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
+    padding-bottom: 30px;
 }
